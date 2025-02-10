@@ -33,5 +33,8 @@ elif point >= 31 and point <= 50:
 else:
     print("You got not achieved. Detention!")
 
-(for i in range(1, 101)
-    print(i)
+for num in range(1, 101):
+    if num % 2 == 0:
+        print(f"{num} is even")
+    else:
+        print(f"{num} is odd")
